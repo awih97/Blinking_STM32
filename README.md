@@ -10,6 +10,7 @@ Simple Blinking Application using STM32
 
 
 **Instruction:**
+
 Step 1: Set up code in STM32 Cube IDE 
 
 For starting, STM32F446RE had been selected as the microcontroller in the MCU/MPU Selector tab for the simulation. Then, in the Pinout and Configuration tab, pin PA5 (Port A, Pin 5) had been used as GPIO. This pin is connected to LED on the board and acts as output for blinking. After all pinout is configured, browse directory which be using to store all project folder on Project Manager tab. After that, select type of IDE which in this demonstration we are using MDK ARM Keil to write code. Finally, click Generate button to force the tools to automate the template of the code in Keil. 
