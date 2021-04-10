@@ -24,6 +24,7 @@ For writing the Blinky code, there are various way to make LED turn ON and OFF. 
 First example, we utilized toggle method:
 
 **HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5); 
+
 HAL_Delay(500);** 
 
 
