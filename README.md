@@ -30,8 +30,11 @@ HAL_Delay(500);**
 For second example, we utilized write pin method which write “1” or “0”:
 
 **HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_SET);** 
+
 **HAL_Delay(500);** 
+
 **HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);** 
+
 **HAL_Delay(500);** 
 
   
