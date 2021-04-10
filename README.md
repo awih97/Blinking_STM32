@@ -17,9 +17,9 @@ For starting, STM32F446RE had been selected as the microcontroller in the MCU/MP
   
 
 STEP 2: Make the LED blinking  
-**Note: can straight away download all the file above and continue in KEIL IDE for the coding (Open KEIL project in: MDK-ARM > Blinking_app.uvprojx)**
+**Note: Can straight away download all the file above and continue in KEIL IDE for the coding (Open KEIL project in: MDK-ARM > Blinking_app.uvprojx)**
 
-For writing the Blinky code, there are various way to make LED turn ON and OFF. There are two examples for this. 
+For writing the code, find main.c under folder Application/User/Core. User can write the code in while(1) loop. For blinky code, there are various way to make LED turn ON and OFF. There are two examples for this. 
 
 First example, we utilized toggle method:
 
